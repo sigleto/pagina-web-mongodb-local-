@@ -10,7 +10,7 @@ let datos=JSON.parse(json_datos);
 
 
 
-router.get('/',(req,res)=>res.render('inicio',{titulo:"https://sigleto.github.io/pagina/"}))
+router.get('/',(req,res)=>res.render('inicio',{titulo:"Bares que lugares"}))
 router.get('/establecimientos',(req,res)=>res.render('establecimientos',{TITULO:"GASTRO"}))
 router.get('/contacto',(req,res)=>res.render('contacto',{title:"DATOS DE CONTACTO"}))
 router.post('/contacto',(req,res)=>
