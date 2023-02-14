@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title><%= titulo %></title>
+    <%- include('partials/estilos') %>
+    <link rel="stylesheet" href="/inicio.css"/>
+</head>
+<body class="principal">
+    <%- include('partials/navigation') %>
+</--CONTENIDO PRINCIPAL-->
+<header class="container">
+    <img src="/LogoJuan.png" alt="juan" class="img-thumbnail img-fluid">
+    <p>Esta página contiene una relación de establecimientos gastronómicos distribuidos en las categorías de "BARES" y "RESTAURANTES".La principal diferencia entre ambas es que en todos los sitios incluidos como restaurantes se puede reservar. Ello no quiere decir que también lo puedas hacer en algunos bares.
+        Así mismo, en los todos los establecimientos catalogados como bares, se pueden pedir tapas, lo que, tampoco implica que en algunos restaurantes también te las sirvan.
+        En la sección de <a href="/contacto">contactos</a> me puedes dejar algún establecimiento que eches de menos en la relación y lo incluiré sin problema.</p>
+        <%- include('partials/reloj/reloj') %> 
+    </header>
+    <%- include('partials/footer') %>
+</body>
+</html>

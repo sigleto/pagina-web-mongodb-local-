@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: whitesmoke;
+    color:white;
+}
+.pie{
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+img{
+    margin-left: 480px;
+    margin-top: 70px;
+}
+#navbarNav li{
+    padding-left: 150px;
+}
+p{
+    width:800px;
+    text-align: center;
+    margin:auto;
+    margin-top: 15px;
+}
+li{
+    margin-top: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+  }
+.cuerpo{
+    background-color: whitesmoke
+}
+.radios{
+   margin-left: 125px;
+}
+.ancho{
+    height: 50px;
+  
+}
+.varios{
+    display: flex;
+    background-color: aquamarine;
+   width: 100%;
+   align-items: center;
+   flex-direction: row;
+   padding-left: 240px;
+}
+.cate1{
+    
+    background-image: url("/restaurante.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.esta{
+    
+     color:hsl(116, 90%, 47%);
+    font-size: 30px;
+}
+.cate{
+    margin-top: 100px;
+    margin-left: 500px;
+    color:hsl(116, 90%, 47%);
+    
+}
+.principal{
+
+    background-image: url("/principal.webp");
+}

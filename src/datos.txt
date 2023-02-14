@@ -1,0 +1,1 @@
+[{"id":90.51070666488725,"nombre":"juan","preferencias":"jkjk","correo":"sigleo@gmail.comfaf","comentarios":"jjj"},{"id":67.24115720615316,"nombre":"fff","preferencias":"bares","correo":"sigleo@gmail.com","comentarios":"asd"},{"id":32.90447631123521,"nombre":"uraño","preferencias":"restaurantes","correo":"","comentarios":"casa oliva"}]

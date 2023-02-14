@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title><%= TITULO %></title>
+    <%- include('partials/estilos') %>
+</head>
+
+<body class="cate1">
+       <%- include('partials/navigation') %>
+    <div class="cate">      
+    <h2>Elige categoría:</h2>
+    
+    <ul >
+        <a href="/establecimientos/bares" target="_blank" class="esta"> BARES</a><br><br>
+        <a href="/establecimientos/restaurantes" target="_blank" class="esta"> RESTAURANTES</a>
+        
+    </ul>
+    </div> 
+    <%- include('partials/footer') %>
+</body>
+</html>

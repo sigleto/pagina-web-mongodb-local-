@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+     <title><%= title %></title>
+    <%- include('partials/estilos') %>
+    <link rel="stylesheet" href="/contacto.css"/>
+</head> 
+<body >
+    <%- include('partials/navigation') %>
+   
+    <form method="POST" action="/contacto" class="cuerpo card card-body" >
+      
+      <div class=cuerpo>
+        <ul>
+   
+         <li>
+           <label for="nombre">NOMBRE:</label>
+           <input type="text" id="nombre" name="nombre">
+         </li>
+         
+         
+         <li>
+           <label  for="preferencias">PREFERENCIAS:</label>
+           <input type="radio" name="preferencias" value="bares" > BARES<br>
+           <input class="radios" type="radio" name="preferencias" value="restaurantes" > RESTAURANTES<br>
+         </li>
+          
+         <li>
+           <label for="mail">CORREO:</label>
+           <input type="email" id="mail" name="correo" placeholder="No es necesario">
+         </li>
+         
+         <li >
+           <label for="msg">COMENTARIOS:</label>
+           <textarea class="comentarios"id="msg" name="comentarios" placeholder="Puedes indicar algún establecimiento que quieras que incluya. Solo escribe el nombre"></textarea>
+         </li>
+                  
+        </ul>
+        <button class=boton type="submit">ENVIAR</button>
+      </div>
+        <img src="/imagen-contactos.jpg" alt="imagen"><%- include('partials/clima/clima.ejs') %>
+       </form>
+         
+   
+       
+    <%- include('partials/footer') %>
+</body>
+</html>
