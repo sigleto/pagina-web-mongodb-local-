@@ -1,5 +1,8 @@
 //express sirve para implementar un servidor más fácilmente
+
 import express from "express";
+import "./database.js";
+
 //estas dos sirven para implementar la ruta completa de modo más facil y acceder a la carpeta "views" 
 //donde se guarda lo que queremos enviar al FrontEnd
 import {dirname}from 'path';
@@ -18,12 +21,12 @@ app.set('views',__dirname+'/views')
 
 //ejs sirve para poder incluir HTML
 app.set('view engine','ejs')
-/*Ejemplo de un middelware para verificar contraseña antes de entrar
-app.use((req,res,next)=>{
+//Ejemplo de un middelware para verificar contraseña antes de entrar
+/*app.use((req,res,next)=>{
     if (req.query.loggin==="carcelero"){next()}
     else (res.send("No sabes el contraseño"))
-    })*/
-
+    })
+*/
 //Llama al método static de express para incluir estilos css
 app.use(express.static(__dirname+'/public/estilos css'))
 app.use(express.static(__dirname+'/public/'))
@@ -48,5 +51,5 @@ if (req.params.user==='juan'){res.send(`vale,${req.params.user.toUpperCase()}`)}
 })
 
 
-app.listen(process.env.PORT||3000);
-console.log('escuchando',3000);
+app.listen(process.env.PORT||2000);
+console.log('escuchando',2000);
