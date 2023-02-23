@@ -3,8 +3,8 @@ mongoose.set('strictQuery', false);
 
 (async()=>{
     try{
-        
-    const db=await mongoose.connect("mongodb://0.0.0.0:27017/datos-contacto");
+     const URL= 'mongodb+srv://juanb:mongodbDos2.@cluster0.wdfy7nl.mongodb.net/datos-cliente?retryWrites=true&w=majority'
+    const db=await mongoose.connect(URL);
     console.log("nuevo dato",db.connection.name);
 }catch(error){console.error (error);} 
 })();       
