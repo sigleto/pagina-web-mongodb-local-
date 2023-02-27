@@ -6,7 +6,7 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100%;
-    background-color: whitesmoke;
+    background-color: #d9e7ef;
     color:rgb(79, 32, 32);
 }
 
@@ -54,6 +54,7 @@ label{
     background-image: url("/restauranted.jpg");
      background-repeat: no-repeat;
      background-size: cover;
+    
      
 }
 .esta{
@@ -65,18 +66,23 @@ label{
     margin-top: 100px;
     margin-left: 500px;
     color:hsl(116, 90%, 47%);
-    
+    margin-bottom: 300px;
 }
-.principal{
 
-    background-image: url("/principald.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .pie{
     margin-top: auto;
     font-size: 20px;
     margin-bottom: 30px;
  margin-top: 10px;
     color:rgb(25, 65, 75);
+}
+.restaurante{
+    width:600px;
+    margin-left:350px;
+    
+}
+.logo{
+    width:100px;
+    margin-left: -70px;
+    margin-top: -350px;
 }
