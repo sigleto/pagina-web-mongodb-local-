@@ -7,13 +7,9 @@ body{
     flex-direction: column;
     min-height: 100%;
     background-color: whitesmoke;
-    color:white;
+    color:rgb(79, 32, 32);
 }
-.pie{
-    margin-top: auto;
-    font-size: 20px;
-    margin-bottom: 30px;
-}
+
 img{
     margin-left: 480px;
     margin-top: 70px;
@@ -55,7 +51,7 @@ label{
 }
 .cate1{
     
-    background-image: url("/restaurante.jpg");
+    background-image: url("/restauranted.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      
@@ -73,5 +69,14 @@ label{
 }
 .principal{
 
-    background-image: url("/principal.webp");
+    background-image: url("/principald.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pie{
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+ margin-top: 10px;
+    color:rgb(25, 65, 75);
 }
